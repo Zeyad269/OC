@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F44336"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+
+ <ImageView
+     android:layout_width="60pt"
+     android:layout_height="50pt"
+     android:layout_marginTop="10pt"
+     android:src="@drawable/aa" />
+
+ <TextView
+     android:id="@+id/textView3"
+     android:layout_width="245dp"
+     android:layout_height="22dp"
+     android:layout_marginTop="7pt"
+     android:gravity="center_horizontal"
+     android:text="Votre taille :"
+     android:textAlignment="center"
+     android:textColor="@color/black"
+     android:textSize="20sp" />
+
+ <EditText
+     android:id="@+id/editT"
+     android:layout_width="259dp"
+     android:layout_height="60dp"
+     android:layout_marginTop="4pt"
+     android:ems="10"
+     android:gravity="center_horizontal"
+     android:inputType="numberDecimal"
+     android:textAlignment="center" />
+
+ <TextView
+     android:id="@+id/textView5"
+     android:layout_width="113dp"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="13pt"
+     android:gravity="center_horizontal"
+     android:text="Votre poids :"
+     android:textAlignment="center"
+     android:textColor="@color/black"
+     android:textSize="20sp" />
+
+ <EditText
+     android:id="@+id/editP"
+     android:layout_width="259dp"
+     android:layout_height="60dp"
+     android:layout_marginTop="4pt"
+     android:ems="10"
+     android:gravity="center_horizontal"
+     android:inputType="numberDecimal"
+     android:textAlignment="center" />
+
+ <Button
+     android:id="@+id/button"
+     android:layout_width="150dp"
+     android:layout_height="40dp"
+     android:layout_marginTop="15pt"
+     android:background="#009688"
+     android:gravity="center_horizontal"
+     android:onClick="imc"
+     android:text="Calculer"
+     android:textAlignment="center"
+     app:backgroundTint="#FA000000" />
+
+ <TextView
+     android:id="@+id/textView"
+     android:layout_width="259dp"
+     android:layout_height="60dp"
+     android:layout_marginTop="4pt"
+     android:ems="10"
+     android:gravity="center_horizontal"
+     android:inputType="numberDecimal"
+     android:textAlignment="center" />
+
+
+</LinearLayout>

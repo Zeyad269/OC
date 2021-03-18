@@ -2,12 +2,17 @@
     <string name="app_name">OCPizza</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">OC Pizza</string>
+    <string name="nav_header_subtitle">ocpizza@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="menu_gallery"> </string>
+    <string name="menu_home"> </string>
+    <string name="menu_slideshow"> </string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-</resources>
+    <string name="nav_slide_icon1">Client</string>
+    <string name="nav_slide_icon2">Livreur</string>
+    <string name="nav_slide_icon3">Pizzaiolo</string>
+    <string name="nav_slide_icon4">Préparateur de commande</string>
+
+    </resources>
